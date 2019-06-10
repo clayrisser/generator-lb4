@@ -1,6 +1,12 @@
 {
   "watch": ["src"],
   "ext": "ts",
-  "ignore": ["src/**/*.spec.ts"],
-  "exec": "lb-tsc --outDir dist && cp -r src/public dist/src/public && node dist"
+  "ignore": [
+    "**/*.spec.ts",
+    "**/flycheck_application.ts",
+    "\\.#*",
+    "dist/**/*",
+    "node_modules/**/*"
+  ],
+  "exec": "lb-tsc --outDir dist && cp -r src/public dist/src && node dist"
 }

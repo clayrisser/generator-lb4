@@ -1,6 +1,6 @@
 {
   "name": "generator-lb4",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "loopback 4 yeoman generator",
   "keywords": [
     "yeoman-generator",
@@ -43,7 +43,7 @@
     "babel-preset-everything": "^0.3.1",
     "ejs-lint": "^0.3.0",
     "eslint": "^5.16.0",
-    "eslint-config-jam": "^0.2.10",
+    "eslint-config-jam": "^0.2.12",
     "prettier": "^1.18.0",
     "yo": "^2.0.6"
   },
